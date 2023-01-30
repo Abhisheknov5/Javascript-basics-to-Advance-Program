@@ -1,1 +1,0 @@
-console.log("Apple is sweet fruit!")
