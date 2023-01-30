@@ -21,6 +21,6 @@ let str = "Apple is Sweet Fruit";
 
 let str1 = reverse(str,"")
 let str2 = reverse(str1," ")
-console.log(str2);
+console.log(str2); 
 
 

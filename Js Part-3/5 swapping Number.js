@@ -19,11 +19,15 @@ console.log(" 5 Swapping Two Number:");
 
 // 2. Swapping without using temporary variable
 
-var a = parseInt(prompt('Please enter the first value'));
-var b = parseInt(prompt('Please enter the second value'));
-console.log(`The value of a is: ${a}, The value of b is : ${b} `);
-a = a + b;
-b = a - b;
-a = a - b;
-console.log(`After Swapping \n The value of a is: ${a}, The value of b is : ${b} `);
+// var a = parseInt(prompt('Please enter the first value'));
+// var b = parseInt(prompt('Please enter the second value'));
+// console.log(`The value of a is: ${a}, The value of b is : ${b} `);
+// a = a + b;
+// b = a - b;
+// a = a - b;
+// console.log(`After Swapping \n The value of a is: ${a}, The value of b is : ${b} `);
+
+let a = 10, b= 20;
+[a,b] = [b,a];
+console.log("a: "+a,"b: "+b);
 

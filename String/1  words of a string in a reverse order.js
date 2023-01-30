@@ -5,9 +5,7 @@
 */
 console.log('Print words of a String in a reverse order');
 
-var string = "Apple is sweet fruit";
-var words = string.split(" ");
-words.reverse();
-words.join(" ");
-
-console.log(words);
+function ReverseString(str) {
+    return str.split('').reverse().join('')
+}
+console.log(ReverseString("Apple is Sweet fruit"));
